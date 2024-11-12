@@ -1,0 +1,310 @@
+V US Equity,"""=BDH($A$1, $B7, ""19900101"","""",""sort=a"",""dir=h"",""per=cy"")",Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 27,Unnamed: 28,Unnamed: 29,Unnamed: 30,Unnamed: 31,Unnamed: 32,Unnamed: 33,Unnamed: 34,Unnamed: 35
+,"""=""=BDH($A$1, B"" & ROW() & "", """"19900101"""","""""""",""""sort=a"""",""""dates=h"""",""""dir=h"""",""""per=cy"""")""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+date,,1990-12-31 00:00:00,1991-12-31,1992-12-31,1993-12-31,1994-12-30,1995-12-29,1996-12-31,1997-12-31,1998-12-31,1999-12-31,2000-12-29,2001-12-31,2002-12-31,2003-12-31,2004-12-31,2005-12-30 00:00:00,2006-12-29 00:00:00,2007-12-31 00:00:00,2008-12-31 00:00:00,2009-12-31 00:00:00,2010-12-31 00:00:00,2011-12-30 00:00:00,2012-12-31 00:00:00,2013-12-31 00:00:00,2014-12-31 00:00:00,2015-12-31 00:00:00,2016-12-30 00:00:00,2017-12-29 00:00:00,2018-12-31 00:00:00,2019-12-31 00:00:00,2020-12-31 00:00:00,2021-12-31 00:00:00,2022-12-30 00:00:00,2023-12-29 00:00:00
+"  + Cash, Cash Equivalents & STI",CASH_CASH_EQTY_STI_DETAILED,,,,,,,,,,,,,,,,,930.575,1022.459,5334,4732,4051,3398,2817,4255,3950,6015,8938,13438,11709,12074,20041,18512,18522,20128
+    + Cash & Cash Equivalents,BS_CASH_NEAR_CASH_ITEM,,,,,,,,,,,,,,,,,270.124,275.379,4979,4617,3867,2127,2074,2186,1971,3518,5619,9874,8162,7838,16289,16487,15689,16286
+    + ST Investments,BS_MKT_SEC_OTHER_ST_INVEST,,,,,,,,,,,,,,,,,660.451,747.08,355,115,184,1271,743,2069,1979,2497,3319,3564,3547,4236,3752,2025,2833,3842
+  + Accounts & Notes Receiv,BS_ACCT_NOTE_RCV,,,,,,,,,,,,,,,,,216.585,245.215,342,444,476,560,723,761,822,847,1041,1132,1208,1542,1618,1968,2020,2291
+"    + Accounts Receivable, Net",BS_ACCTS_REC_EXCL_NOTES_REC,,,,,,,,,,,,,,,,,216.585,245.215,342,444,476,560,723,761,822,847,1041,1132,1208,1542,1618,1968,2020,2291
+"    + Notes Receivable, Net",NOTES_RECEIVABLE,,,,,,,,,,,,,,,,,,,,0,,,0,,0,0,0,0,0,0,0,0,0,0
+  + Unbilled Revenues,BS_UNBILLED_REVENUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Inventories,BS_INVENTORIES,,,,,,,,,,,,,,,,,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Raw Materials,INVTRY_RAW_MATERIALS,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Work In Process,INVTRY_IN_PROGRESS,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Finished Goods,INVTRY_FINISHED_GOODS,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Other Inventory,BS_OTHER_INV,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  + Other ST Assets,OTHER_CURRENT_ASSETS_DETAILED,,,,,,,,,,,,,,,,,446.771,1239.265,5498,4065,4207,5232,8246,2806,4790,4030,4334,4453,5299,7354,5986,7127,9663,11113
+    + Prepaid Expenses,BS_PREPAY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + Derivative & Hedging Assets,BS_DERIV_HEDGING_ASST_ST,,,,,,,,,,,,,,,,,,,,18,5,30,13,23,40,76,50,18,78,437,512,410,1131,293
+    + Taxes Receivable,BS_TAXES_RECEIVABLE_SHORT_TERM,,,,,,,,,,,,,,,,,,,,135,140,112,179,142,91,77,232,148,82,130,93,83,190,206
+    + Misc ST Assets,BS_OTHER_CUR_ASSET_LESS_PREPAY,,,,,,,,,,,,,,,,,,,,3209,3439,4601,6027,2160,3631,3006,4052,4287,5139,6787,5381,6634,8342,10614
+Total Current Assets,BS_CUR_ASSET_REPORT,,,,,,,,,,,,,,,,,1593.931,2506.939,11174,9241,8734,9190,11786,7822,9562,10892,14313,19023,18216,20970,27645,27607,30205,33532
+"  + Property, Plant & Equip, Net",BS_NET_FIX_ASSET,,,,,,,,,,,,,,,,,280.899,313.092,1080,1204,1357,1541,1634,1732,1892,1888,2150,2253,2472,2695,2737,3230,3703,3913
+"    + Property, Plant & Equip",BS_GROSS_FIX_ASSET,,,,,,,,,,,,,,,,,712.014,782.841,1756,2029,2389,2749,3081,3439,3915,4283,4798,5143,5697,6570,7161,8189,9361,9268
+    - Accumulated Depreciation,BS_ACCUM_DEPR,,,,,,,,,,,,,,,,,431.115,469.749,676,825,1032,1208,1447,1707,2023,2395,2648,2890,3225,3875,4424,4959,5658,5355
+  + LT Investments & Receivables,BS_LT_INVEST,,,,,,,,,,,,,,,,,515.29,737.498,244,168,24,711,3283,2760,3015,3384,3931,1926,4082,2157,231,1705,2136,1921
+    + LT Investments,BS_LONG_TERM_INVESTMENTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + LT Receivables,BS_LT_RECEIVABLES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Other LT Assets,BS_OTHER_ASSETS_DEF_CHRG_OTHER,,,,,,,,,,,,,,,,,573.798,832.588,22483,21668,23293,23318,23310,23642,24100,24072,43641,44775,44455,46752,50306,50354,49457,51133
+    + Total Intangible Assets,BS_DISCLOSED_INTANGIBLES,,,,,,,,,,,,,,,,,,,21096,21091,22925,23104,23101,23032,23164,23186,42300,42958,42752,42436,43718,43622,42852,44101
+    + Goodwill,BS_GOODWILL,,,,,,,,,,,,,,,,,0,,10213,10208,11447,11668,11681,11681,11753,11825,15066,15110,15194,15656,15910,15958,17787,17997
+    + Other Intangible Assets,OTHER_INTANGIBLE_ASSETS_DETAILED,,,,,,,,,,,,,,,,,,,10883,10883,11478,11436,11420,11351,11411,11361,27234,27848,27558,26780,27808,27664,25065,26104
+    + Prepaid Expense,BS_PREPAID_EXPENSE_LT,,,,,,,,,,,,,,,,,,,,23,30,29,42,46,51,57,72,,,,,,,
+    + Deferred Tax Assets,BS_DEFERRED_TAX_ASSETS_LT,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,1307,941,698,798,1046,1167,1553
+    + Derivative & Hedging Assets,BS_DERIV_HEDGING_ASST_LT,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Investments in Affiliates,BS_INVEST_IN_ASSOC_CO,,,,,,,,,,,,,,,,,186.353,226.524,,,,,,,,,,,,,,,,
+    + Misc LT Assets,OTHER_NONCURRENT_ASSETS_DETAILED,,,,,,,,,,,,,,,,,387.445,606.064,1387,554,338,185,167,564,885,818,1247,510,762,3618,5790,5686,5438,5479
+Total Noncurrent Assets,BS_TOT_NON_CUR_ASSET,,,,,,,,,,,,,,,,,1369.987,1883.178,23807,23040,24674,25570,28227,28134,29007,29344,49722,48954,51009,51604,53274,55289,55296,56967
+Total Assets,BS_TOT_ASSET,,,,,,,,,,,,,,,,,2963.918,4390.117,34981,32281,33408,34760,40013,35956,38569,40236,64035,67977,69225,72574,80919,82896,85501,90499
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cash from Operating Activities,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Net Income,CF_NET_INC,,,,,,,,,,,,,,,,360.445,454.561,-1076.095,804,2353,2966,3650,2144,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+Cash from Operating Activities,CF_CASH_FROM_OPER,,,,,,,,,,,,,,,,480.629,434.508,505.147,531,558,2691,3872,5009,3022,7205,6584,5574,9208,12941,12784,10440,15227,18849,20755
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cash from Investing Activities,,#N/A Requesting Data...,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Change in Fixed & Intang,FIXED_INTANG_ASST_CHANGE,,,,,,,,,,,,,,,,-119.267,-87.265,-159.96,-411,-306,-238,-353,-374,-471,-553,-404,-523,-695,-704,-756,-736,-705,-970,-1059
+    + Disp in Fixed & Intang,DISPOSAL_OF_FIXED_INTANG,,,,,,,,,,,,,,,,0,0,0,4,0,3,0,2,0,0,10,0,12,14,0,0,0,0,0
+    + Acq of Fixed & Intang,ACQUIS_OF_FIXED_INTANG,,,,,,,,,,,,,,,,-119.267,-87.265,-159.96,-415,-306,-241,-353,-376,-471,-553,-414,-523,-707,-718,-756,-736,-705,-970,-1059
+  + Net Change in LT Investment,NET_CHG_IN_LT_INVEST_DETAILED,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Dec in LT Investment,CF_DECR_INVEST,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Inc in LT Investment,CF_INCR_INVEST,,,,,,,,,,,,,,,,,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  + Net Cash From Acq & Div,CF_NT_CSH_RCVD_PD_FOR_ACQUIS_DIV,,,,,,,,,,,,,,,,,,,,0,-1805,-268,-3,0,-149,-93,-9082,-302,-196,-699,-77,-75,-1948,0
+    + Cash from Divestitures,CF_CASH_FOR_DIVESTITURES,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Cash for Acq of Subs,CF_CASH_FOR_ACQUIS_SUBSIDIARIES,,,,,,,,,,,,,,,,,,,,0,-1805,-268,-3,0,-149,-93,-9082,-302,-196,-699,-77,-75,-1948,0
+    + Cash for JVs,CF_CASH_FOR_JOINT_VENTURES_ASSOC,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  + Other Investing Activities,OTHER_INVESTING_ACT_DETAILED,,,,,,,,,,,,,,,,-353.864,-175.937,-303.281,965,2136,139,-1678,-2037,-693,-239,-938,-1311,1732,-2184,864,2240,628,-1370,-947
+  + Net Cash From Disc Ops,CF_NET_CASH_DISCONTINUED_OPS_INV,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cash from Investing Activities,CF_CASH_FROM_INV_ACT,,,,,,,,,,,,,,,,-473.131,-263.202,-463.241,554,1830,-1904,-2299,-2414,-1164,-941,-1435,-10916,735,-3084,-591,1427,-152,-4288,-2006
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cash from Financing Activities,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Dividends Paid,CF_DVD_PAID,,,,,,,,,,,,,,,,0,0,0,-93,-318,-368,-423,-595,-864,-1006,-1177,-1350,-1579,-1918,-2269,-2664,-2798,-3203,-3751
+  + Cash From (Repayment) Debt,PROC_FR_REPAYMNTS_BOR_DETAILED,,,,,,,,,,,,,,,,-33.768,-36.579,-36.651,-22,-54,-24,-54,-6,-6,0,0,15971,2488,-1750,0,7212,-3000,2218,-2250
+  + Cash (Repurchase) of Equity,PROC_FR_REPURCH_EQTY_DETAILED,,,,,,,,,,,,,,,,0,0,0,5654,-2607,-930,-1907,-465,-5183,-3937,-2744,-6999,-6742,-7028,-8445,-7924,-8468,-11393,-11841
+    + Increase in Capital Stock,CF_INCR_CAP_STOCK,,,,,,,,,,,,,,,,0,0,0,19100,39,70,117,245,182,181,166,158,149,164,162,190,208,196,260
+    + Decrease in Capital Stock,CF_DECR_CAP_STOCK,,,,,,,,,,,,,,,,0,0,0,-13446,-2646,-1000,-2024,-710,-5365,-4118,-2910,-7157,-6891,-7192,-8607,-8114,-8676,-11589,-12101
+  + Other Financing Activities,OTHER_FIN_AND_DEC_CAP,,,,,,,,,,,,,,,,-12.198,0,0,-1920,228,-220,-920,-1589,4307,-1535,318,-145,-91,-94,-1347,-592,-144,-318,70
+  + Net Cash From Disc Ops,CF_NET_CASH_DISCONTINUED_OPS_FIN,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cash from Financing Activities,CFF_ACTIVITIES_DETAILED,,,,,,,,,,,,,,,,-45.966,-36.579,-36.651,3619,-2751,-1542,-3304,-2655,-1746,-6478,-3603,7477,-5924,-10790,-12061,-3968,-14410,-12696,-17772
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  Effect of Foreign Exchange Rates,CF_EFFECT_FOREIGN_EXCHANGES,,,,,,,,,,,,,,,,,,,,1,5,-9,7,0,-1,1,-34,236,-101,-277,440,-37,-1287,636
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Net Changes in Cash,CF_NET_CHNG_CASH,,,,,,,,,,,,,,,,-38.468,134.727,5.255,4704,-362,-750,-1740,-53,112,-215,1547,2101,4255,-1034,-145,8339,628,578,1613
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cash Paid for Taxes,CF_CASH_PAID_FOR_TAX,,,,,,,,,,,,,,,,122.529,261.6,413.239,678,1172,1291,1731,2057,595,2656,2486,2842,3038,2285,2648,2671,3012,3741,3433
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reference Items,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Net Cash Paid for Acquisitions,CF_NET_CASH_PAID_FOR_AQUIS,,,,,,,,,,,,,,,,,,,0,0,1805,268,3,0,149,93,9082,302,196,699,77,75,1948,0
+Free Cash Flow,CF_FREE_CASH_FLOW,,,,,,,,,,,,,,,,361.362,347.243,345.187,116,252,2450,3519,4633,2551,6652,6170,5051,8501,12223,12028,9704,14522,17879,19696
+Free Cash Flow to Firm,CF_FREE_CASH_FLOW_FIRM,,,,,,,,,,,,,,,,426.2633,405.6043,,202.0569,319.62,2496.0129,3539.628,4639.7938,2553.7449,6657.6323,6172.1105,5370.2907,8823.519,12715.2858,12460.588,10110.5885,14915.1733,18322.6957,20224.7737
+Free Cash Flow to Equity,FREE_CASH_FLOW_EQUITY,,,,,,,,,,,,,,,,,,,,198,2429,3465,4629,2545,6652,6180,26739,10810,10431,12020,16540,9516,19341,16820
+Free Cash Flow per Basic Share,FREE_CASH_FLOW_PER_SH,,,,,,,,,,,,,,,,,,0.1114,0.0377,0.0746,0.73,1.0677,1.4299,1.0841,2.9382,2.778,2.3276,4.0404,5.9653,6.017,4.9688,7.4625,10.8292,12.1731
+Price to Free Cash Flow,PX_TO_FREE_CASH_FLOW,,,,,,,,,,,,,,,,,,,347.7073,292.9216,24.1016,23.774,26.5011,51.3491,22.3099,27.9155,33.5188,28.22,22.1177,31.2281,44.021,29.0399,19.1852,21.3874
+Cash Flow to Net Income,CASH_FLOW_TO_NET_INC,,,,,,,,,,,,,,,,1.3334,0.9559,,0.6604,0.2371,0.9073,1.0608,2.3363,0.6068,1.3249,1.0405,0.9304,1.3745,1.2563,1.0583,0.9608,1.2369,1.2602,1.2016
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Revenue,SALES_REV_TURN,,,,,,,,,,,,,,,,2664.605,2948.126,3589.796,6263,6911,8065,9188,10421,11778,12702,13880,15082,18358,20609,22977,21846,24105,29310,32653
+    + Sales & Services Revenue,IS_SALES_AND_SERVICES_REVENUES,,,,,,,,,,,,,,,,,,,,6911,8065,9188,10421,11778,12702,13880,15082,18358,20609,22977,21846,24105,29310,14826
+  - Cost of Revenue,IS_COGS_TO_FE_AND_PP_AND_G,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + Cost of Goods & Services,IS_COG_AND_SERVICES_SOLD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gross Profit,GROSS_PROFIT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  + Other Operating Income,IS_OTHER_OPER_INC,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  - Operating Expenses,IS_OPERATING_EXPN,,,,,,,,,,,,,,,,2211.683,2218.456,5039.291,3561,3373,3476,3732,8282,4539,5005,4816,7199,6214,7655,7976,7765,8301,10497,11653
+"    + Selling, General & Admin",IS_SGA_EXPENSE,,,,,,,,,,,,,,,,680.874,746.393,791.831,1348,1256,1323,1284,1324,1327,1407,1419,1665,1982,2133,2301,2067,2121,2530,2671
+    + Selling & Marketing,IS_SELLING_EXPENSES,,,,,,,,,,,,,,,,456.922,473.945,580.883,1016,918,964,870,873,876,900,872,869,922,988,1105,971,1136,1336,1341
+    + General & Administrative,IS_GENERAL_AND_ADMINISTRATIVE,,,,,,,,,,,,,,,,,,,,338,359,414,451,451,507,547,796,1060,1145,1196,1096,985,1194,1330
+    + Research & Development,IS_OPERATING_EXPENSES_RD,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,0,0,0,0,,,,
+    + Other Operating Expense,IS_OTHER_OPERATING_EXPENSES,,,,,,,,,,,,,,,,,,,,1891,1888,2160,6625,2815,3163,2903,5032,3676,4909,5019,4931,5376,7106,8039
+Operating Income (Loss),IS_OPER_INC,,,,,,,,,,,,,,,,452.922,729.67,-1449.495,2702,3538,4589,5456,2139,7239,7697,9064,7883,12144,12954,15001,14081,15804,18813,21000
+  - Non-Operating (Income) Loss,IS_NONOP_INCOME_LOSS,,,,,,,,,,,,,,,,,,,,-462,-49,-200,-68,-18,-27,69,-129,450,148,117,291,-259,677,-37
+"    + Interest Expense, Net",IS_NET_INTEREST_EXPENSE,,,,,,,,,,,,,,,,,,,,,,,-29,,,,,,612,533,516,513,538,644
+    + Interest Expense,IS_INT_EXPENSE,,,,,,,,,,,,,,,,108.485,89.539,80.658,143,115,72,32,7,4,8,3,427,563,612,533,516,513,538,644
+    - Interest Income,IS_INT_INC,,,,,,,,,,,,,,,,,,,,,,,36,,,,,,0,0,0,0,0,0
+    + Other Investment (Inc) Loss,IS_OTHER_INVESTMENT_INCOME_LOSS,,,,,,,,,,,,,,,,,,,,-575,-49,-108,-36,,,,,,,,,,,
+    + (Income) Loss from Affiliates,INCOME_LOSS_FROM_AFFILIATES,,,,,,,,,,,,,,,,-30.799,-13.355,-40.276,-1,0,,0,0,,0,0,0,,,,,,,
+    + Other Non-Op (Income) Loss,IS_OTHER_NON_OPERATING_INC_LOSS,,,,,,,,,,,,,,,,,,,,-2,-72,-124,-3,-22,-35,66,-556,-113,-464,-416,-225,-772,139,-681
+"Pretax Income (Loss), Adjusted",PRETAX_INC,,,,,,,,,,,,,,,,456.245,721.816,-1387.418,1336,4000,4638,5656,2207,7257,7724,8995,8012,11694,12806,14884,13790,16063,18136,21037
+  - Abnormal Losses (Gains),IS_ABNORMAL_ITEM,,,,,,,,,,,,,,,,,22.878,2652.83,1628,-402,-45,-78,4100,3,453,124,1812,19,509,273,-37.557,-536,1254,1100
+    + Abnormal Derivatives,IS_DERIVATIVES_HEDGING,,,,,,,,,,,,,,,,,,,,,,,,,,,-74,,,,,,,
+    + Disposal of Assets,IS_GAIN_LOSS_DISPOSAL_ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + Asset Write-Down,IS_IMPAIRMENT_ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + Impairment of Intangibles,IS_IMPAIR_OF_INTANG_ASSETS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    + Gain/Loss on Sale/Acquisition of Business,IS_SALE_OF_BUSINESS,,,,,,,,,,,,,,,,,,,,-473,,-85,,,,,1877,,,,,,,
+    + Legal Settlement,IS_LEGAL_LITIGATION_SETTLEMENT,,,,,,,,,,,,,,,,,,,,2,-45,7,4100,3,453,14,2,19,607,400,11,3,861,906
+    + Sale of Investments,IS_GAIN_LOSS_ON_INVESTMENTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-98,-131,-101,-712,264,104
+    + Other Abnormal Items,IS_OTHER_ONE_TIME_ITEMS,,,,,,,,,,,,,,,,,,,,2,,,,,,110,-255,,,,35.443,152,60,
+"Pretax Income (Loss), GAAP",PRETAX_INC,,,,,,,,,,,,,,,,456.245,721.816,-1387.418,1336,4000,4638,5656,2207,7257,7724,8995,8012,11694,12806,14884,13790,16063,18136,21037
+  - Income Tax Expense (Benefit),IS_INC_TAX_EXP,,,,,,,,,,,,,,,,183.296,251.338,-315.993,532,1648,1674,2010,65,2277,2286,2667,2021,4995,2505,2804,2924,3752,3179,3764
+Income (Loss) from Cont Ops,IS_INC_BEF_XO_ITEM,,,,,,,,,,,,,,,,272.949,470.478,-1071.425,804,2352,2964,3646,2142,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+  - Net Extraordinary Losses (Gains),XO_GL_NET_OF_TAX,,,,,,,,,,,,,,,,-95.744,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + Discontinued Operations,IS_DISCONTINUED_OPERATIONS,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    + XO & Accounting Changes,EXTRAORD_ITEMS_ACCOUNTING_CHANGS,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Income (Loss) Incl. MI,NI_INCLUDING_MINORITY_INT_RATIO,,,,,,,,,,,,,,,,368.693,470.478,-1071.425,804,2352,2964,3646,2142,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+  - Minority Interest,MIN_NONCONTROL_INTEREST_CREDITS,,,,,,,,,,,,,,,,8.248,15.917,4.67,0,-1,-2,-4,-2,0,0,0,0,0,0,0,0,0,0,0
+"Net Income, GAAP",NET_INCOME,,,,,,,,,,,,,,,,360.445,454.561,-1076.095,804,2353,2966,3650,2144,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+  - Preferred Dividends,IS_TOT_CASH_PFD_DVD,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  - Other Adjustments,OTHER_ADJUSTMENTS,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Net Income Avail to Common, GAAP",EARN_FOR_COMMON,,,,,,,,,,,,,,,,360.445,454.561,-1076.095,804,2353,2966,3650,2144,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Net Income Avail to Common, Adj",EARN_FOR_COMMON,,,,,,,,,,,,,,,,360.445,454.561,-1076.095,804,2353,2966,3650,2144,4980,5438,6328,5991,6699,10301,12080,10866,12311,14957,17273
+  Net Abnormal Losses (Gains),IS_NET_ABNORMAL_ITEMS,,,,,,,,,,,,,,,,,,,,-190.85,-29.25,-39.45,2267,1.95,19,-119.9,963.3,1527.35,390,189,300.69,585.37,983,869
+  Net Extraordinary Losses (Gains),XO_GL_NET_OF_TAX,,,,,,,,,,,,,,,,-95.744,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Basic Weighted Avg Shares,IS_AVG_NUM_SH_FOR_EPS,,,,,,,,,,,,,,,,,,3100,3076,3376,3356,3296,3240,2353,2264,2221,2170,2104,2049,1999,1953,1946,1651,1618
+"Basic EPS, GAAP",IS_EPS,,,,,,,,,,,,,,,,,,-0.6946,0.2614,0.697,0.8838,1.1074,0.6617,2.1164,2.4019,2.8492,2.7608,3.1839,5.0273,6.043,5.5637,6.3263,9.0594,10.6755
+"Basic EPS from Cont Ops, GAAP",IS_EARN_BEF_XO_ITEMS_PER_SH,,,,,,,,,,,,,,,,,,-1.0421,0.2614,0.697,0.8838,1.1074,0.6617,2.1164,2.4019,2.8492,2.7608,3.1839,5.0273,6.043,5.5637,6.3263,9.0594,10.6755
+"Basic EPS from Cont Ops, Adjusted",IS_BASIC_EPS_CONT_OPS,,,,,,,,,,,,,,,,,,0.2075,0.6064,0.6404,0.8751,1.0954,1.3614,2.1173,2.4103,2.7952,3.2047,3.9099,5.2177,6.1376,5.7177,6.6271,9.6548,11.2126
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diluted Weighted Avg Shares,IS_SH_FOR_DILUTED_EPS,,,,,,,,,,,,,,,,,,3100,3076,4608,4384,4088,3856,2897,2794,2724,2678,2654,2586,2529,2479,2443,2136,2085
+"Diluted EPS, GAAP",IS_DILUTED_EPS,,,,,,,,,,,,,,,,,,-1.0421,0.2614,0.5106,0.6766,0.8929,0.556,1.719,1.9463,2.3231,2.2371,2.5241,3.9834,4.7766,4.3832,5.0393,7.0023,8.2844
+"Diluted EPS from Cont Ops, GAAP",IS_DIL_EPS_BEF_XO,,,,,,,,,,,,,,,,,,-1.3896,0.2614,0.5106,0.6766,0.8929,0.556,1.719,1.9463,2.3231,2.2371,2.5241,3.9834,4.7766,4.3832,5.0393,7.0023,8.2844
+"Diluted EPS from Cont Ops, Adjusted",IS_DIL_EPS_CONT_OPS,,,,,,,,,,,,,,,,,,0.2075,0.6064,0.4692,0.6699,0.8832,1.1439,1.7197,1.9531,2.279,2.5968,3.0996,4.1342,4.8513,4.5045,5.2789,7.4625,8.7012
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reference Items,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Accounting Standard,ACCOUNTING_STANDARD,,,,,,,,,,,,,,,,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP,US GAAP
+EBITDA,EBITDA,,,,,,,,,,,,,,,,588.45,869.833,-1312.855,2939,3764,4854,5744,2472,7636,8132,9558,8385,12700,13567,15657,14962,16719,19791,22072
+EBITDA Margin (T12M),EBITDA_MARGIN,,,,,,,,,,,,,,,,22.0839,29.5046,-36.5719,46.9264,54.4639,60.186,62.5163,23.7213,64.8327,64.0214,68.8617,55.5961,69.1796,65.8305,68.1421,68.4885,69.3591,67.523,67.5956
+EBIT,EBIT,,,,,,,,,,,,,,,,452.922,729.67,-1449.495,2702,3538,4589,5456,2139,7239,7697,9064,7883,12144,12954,15001,14081,15804,18813,21000
+Gross Margin,GROSS_MARGIN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Operating Margin,OPER_MARGIN,,,,,,,,,,,,,,,,16.9977,24.7503,-40.3782,43.1423,51.1937,56.9002,59.3818,20.5259,61.462,60.5968,65.3026,52.2676,66.151,62.856,65.287,64.4557,65.5632,64.1863,64.3126
+Profit Margin,PROF_MARGIN,,,,,,,,,,,,,,,,13.5271,15.4186,-29.9765,12.8373,34.0472,36.7762,39.7257,20.5738,42.2822,42.8122,45.5908,39.7228,36.4909,49.983,52.5743,49.7391,51.0724,51.0304,52.8987
+Sales per Employee,ACTUAL_SALES_PER_EMPL,,,,,,,,,,,,,,,,,,655191.8233,1086383.3478,1212456.1404,1186029.4118,1225066.6667,1226000,1239789.4737,1337052.6316,1228318.5841,,,1212294.1176,1178307.6923,1065658.5366,1121162.7907,1106037.7358,1133784.7222
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Returns,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Return on Common Equity,RETURN_COM_EQY,,,,,,,,,,,,,,,,,,,,10.3506,12.3071,14.1891,7.9309,18.2752,20.0357,22.1046,21.0074,24.6156,36.941,41.8297,36.0123,37.5147,44.1431,49.1464
+Return on Assets,RETURN_ON_ASSET,,,,,,,,,,,,,,,,,,-29.2654,4.0842,6.9965,9.0304,10.7088,5.7347,13.1106,14.5938,16.0599,11.4912,10.1491,15.0158,17.0382,14.1583,15.0304,17.764,19.6284
+Return on Capital,RETURN_ON_CAP,,,,,,,,,,,,,,,,,,-746.9669,8.1056,10.6049,12.462,,,18.2853,20.0565,22.112,16.0494,14.0541,21.2126,24.5227,20.0723,21.1653,26.1714,30.1049
+Return on Invested Capital,RETURN_ON_INV_CAPITAL,,,,,,,,,,,,,,,,,,-804.4386,12.9039,8.0141,10.5687,,,15.9284,17.3225,19.4166,13.3897,12.6618,18.7628,21.9853,18.2554,18.6076,24.3321,27.3712
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Margins,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gross Margin,GROSS_MARGIN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Operating Margin,OPER_MARGIN,,,,,,,,,,,,,,,,16.9977,24.7503,-40.3782,43.1423,51.1937,56.9002,59.3818,20.5259,61.462,60.5968,65.3026,52.2676,66.151,62.856,65.287,64.4557,65.5632,64.1863,64.3126
+Incremental Operating Margin,INCREMENTAL_OPERATING_MARGIN,,,,,,,,,,,,,,,,,97.6111,,155.3003,129.0123,91.0745,77.2039,,375.829,49.5671,116.0441,,130.0672,35.984,86.4443,-81.3439,76.2727,57.8098,65.4203
+Pretax Margin,PRETAX_INC_TO_NET_SALES,,,,,,,,,,,,,,,,17.1224,24.4839,-38.6489,21.3316,57.8787,57.5077,61.5586,21.1784,61.6149,60.8093,64.8055,53.1229,63.6997,62.1379,64.7778,63.1237,66.6376,61.8765,64.4259
+Income before XO Margin,INC_BEF_XO_ITEMS_TO_NET_SALES,,,,,,,,,,,,,,,,10.2435,15.9585,-29.8464,12.8373,34.0327,36.7514,39.6822,20.5546,42.2822,42.8122,45.5908,39.7228,36.4909,49.983,52.5743,49.7391,51.0724,51.0304,52.8987
+Net Income Margin,PROF_MARGIN,,,,,,,,,,,,,,,,13.5271,15.4186,-29.9765,12.8373,34.0472,36.7762,39.7257,20.5738,42.2822,42.8122,45.5908,39.7228,36.4909,49.983,52.5743,49.7391,51.0724,51.0304,52.8987
+Net Income to Common Margin,NET_INCOME_TO_COMMON_MARGIN,,,,,,,,,,,,,,,,13.5271,15.4186,-29.9765,12.8373,34.0472,36.7762,39.7257,20.5738,42.2822,42.8122,45.5908,39.7228,36.4909,49.983,52.5743,49.7391,51.0724,51.0304,52.8987
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Additional,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Effective Tax Rate,EFF_TAX_RATE,,,,,,,,,,,,,,,,40.1749,34.8202,,39.8204,41.2,36.0931,35.5375,2.9452,31.3766,29.5961,29.6498,25.2247,42.7142,19.5611,18.839,21.2038,23.358,17.5287,17.8923
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ESG Financial Materiality Scores,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BESG ESG Score,ESG_SCORE,,,,,,,,,,,,,,,,,,,,,,,,,,3.75,4.44,4.76,5.26,5.13,5.1,5.29,5.36,
+BESG Environmental Pillar Score,ENVIRONMENTAL_SCORE,,,,,,,,,,,,,,,,,,,,,,,,,,5.33,6.47,6.1,6.27,6.29,7.06,7.2,7.35,
+BESG Social Pillar Score,SOCIAL_SCORE,,,,,,,,,,,,,,,,,,,,,,,,,,0.98,1.8,2.45,3.19,3.19,2.56,2.55,2.46,
+BESG Governance Pillar Score,GOVERNANCE_SCORE,,,,,,,,,,,,,,,,,,,,,,,,,,7.25,6.9,7.18,7.5,6.98,7.27,7.88,8.23,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ESG Disclosure Scores,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ESG Disclosure Score,ESG_DISCLOSURE_SCORE,,,,,,,,,,,,,,,,,,,29.5242,29.5242,33.2462,33.2462,34.8959,39.5534,39.5534,42.9836,46.7056,52.208,52.3489,57.9419,56.6643,56.6643,58.6259,
+Environmental Disclosure Score,ENVIRON_DISCLOSURE_SCORE,,,,,,,,,,,,,,,,,,,0,0,0,0,1.3289,15.3126,15.3126,21.8363,25.068,39.0214,39.0214,44.9109,45.2431,45.2431,46.9647,
+Social Disclosure Score,SOCIAL_DISCLOSURE_SCORE,,,,,,,,,,,,,,,,,,,5.3507,5.3507,16.5357,16.5357,20.1632,20.1632,20.1632,21.977,23.6397,26.2092,26.6324,37.5453,33.3736,33.3736,37.5453,
+Governance Disclosure Score,GOVNCE_DISCLOSURE_SCORE,,,,,,,,,,,,,,,,,,,83.0223,83.0223,83.0223,83.0223,83.0223,83.0223,83.0223,84.9789,91.2402,91.2402,91.2402,91.2402,91.2402,91.2402,91.2402,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Environmental,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Air Quality,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nitrogen Oxide Emissions,NOX_EMISSIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VOC Emissions,VOC_EMISSIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particulate Emissions,PARTICULATE_EMISSIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sulphur Dioxide / Sulphur Oxide Emissions,SULPHUR_DIOXIDE_SULPHUR_OXIDE_EM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Climate Change,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Emissions Reduction Initiatives,EMISSION_REDUCTION,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+Transition Plan Claim,TRANSITION_PLAN_INDICATOR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0
+Climate Change Policy,CLIMATE_CHG_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+Climate Change Opportunities Discussed,CLIMATE_CHG_OPPORTUNITIES,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Risks of Climate Change Discussed,CLIMATE_RISKS,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+GHG Scope 1,GHG_SCOPE_1,,,,,,,,,,,,,,,,,,,,,,,,7.56,11.273,17.837,9.005,9.143,9.165,8.642,13.9,4,6.4,10.6
+GHG Scope 2 Location-Based,GHG_SCOPE_2_LOCATION_BASED,,,,,,,,,,,,,,,,,,,,,,,,73.153,72.958,67.074,68.968,88.045,92.519,66.009,66.4,59.2,60.9,67.2
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Energy,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Energy Efficiency Policy,ENERGY_EFFIC_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+Total Energy Consumption,ENERGY_CONSUMPTION,,,,,,,,,,,,,,,,,,,,,,,,559.207,141.517,193.073,187.478,189.044,197.634,205.927,195.556,179.444,207.5,233.611
+Electricity Used,ELECTRICITY_USED,,,,,,,,,,,,,,,,,,,,,,,,123.324,125.94,125.142,,155.543,163.131,170.138,173.056,164.167,178.611,190.833
+Fuel Used - Natural Gas,NAT_GAS_USED,,,,,,,,,,,,,,,,,,,,,,,,1352.1,1257.12,1286.72,,1059.99,1168.26,1498.16,1478.21,1060.35,1574.37,
+Fuel Used - Crude Oil/Diesel,OIL_DIESEL_USED,,,,,,,,,,,,,,,,,,,,,,,,42.824,36.645,5.472,,2.336,2.301,2.105,0.817,0.477,1.319,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Materials & Waste,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Waste Reduction Policy,WASTE_REDUCTION,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Hazardous Waste,HAZARDOUS_WASTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total Waste,TOTAL_WASTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.904,3.55,1.14,2.5,3.9
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Supply Chain,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Environmental Supply Chain Management,ENVIRON_SUPPLY_MGT,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Water,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Water Policy,WATER_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Total Water Withdrawal,TOTAL_WATER_WITHDRAWAL,,,,,,,,,,,,,,,,,,,,,,,,,,238.492,284.716,247.471,339.567,341.081,310.796,271.805,300.954,365
+Total Water Discharged,TOTAL_WATER_DISCHARGED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ecological & Biodiversity Impacts,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Biodiversity Policy,BIODIVERSITY_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Adopts TNFD Recommendations,ADOPT_TNFD_RECOMMENDATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0
+Zero Deforestation Policy,ZERO_DEFORESTATION_POLICY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,
+Board Level Oversight of Biodiversity,BOARD_LEVEL_OVERSIGHT_BIODIV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,
+Executive Level Oversight of Biodiversity,EXEC_LEVEL_OVERSIGHT_BIODIV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Social,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Community & Customers,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Human Rights Policy,HUMAN_RIGHTS_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+Policy Against Child Labor,POLICY_AGAINST_CHILD_LABOR,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,1,1,1,1,1,
+Quality Assurance and Recall Policy,QUALITY_ASSURANCE_AND_RECALL_POL,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0
+Consumer Data Protection Policy,CONSUMER_DATA_PROTECTION_POLICY,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1
+Community Spending,COMMUNITY_SPENDING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.7,14.86,21.5,27,20
+Number of Customer Complaints,CUSTOMER_COMPLAINTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diversity,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Equal Opportunity Policy,EQUAL_OPPORTUNITY_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Gender Pay Gap Breakout,GENDER_PAY_GAP_BREAKOUT,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1
+Pct Women in Senior Management,PCT_WOMEN_SENIOR_MGT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.78
+Pct Women in Middle and or Other Management,PCT_WOMEN_IN_MID_AND_OTHER_MGMT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.51
+Pct Women in Workforce,PCT_WOMEN_EMPLOYEES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,41,41,42,42,42
+Pct Minorities in Workforce,PCT_MINORITY_EMPLOYEES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pct Disabled in Workforce,PCT_DISABLED_IN_WORKFORCE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ethics & Compliance,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Business Ethics Policy,ETHICS_POLICY,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Anti-Bribery Ethics Policy,ANTI_BRIBERY_ETHICS_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Health & Safety,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Health and Safety Policy,HEALTH_SAFETY_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Fatalities - Employees,FATALITIES_EMPLOYEES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lost Time Incident Rate - Employees,LOST_TIME_INCIDENT_RATE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Human Capital,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Training Policy,TRAINING_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+Fair Remuneration Policy,FAIR_REMUNERATION_POLICY,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Number of Employees - CSR,NUMBER_EMPLOYEES_CSR,,,,,,,,,,,,,,,,,,,5765,5700,6800,7500,8500,9500,9500,11300,14200,15000,17000,19500,20500,21500,26500,28800
+Employee Turnover Pct,EMPLOYEE_TURNOVER_PCT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Employee Training Cost,EMPLOYEE_TRAINING_COST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total Hours Spent by Firm - Employee Training,TOT_HRS_SPENT_BY_FIRM_EMP_TRAIN,,,,,,,,,,,,,,,,,,,,,,,,,,,,219300,,267150,266500,258000,450500,460800
+Company Discloses Employee Engagement Score,COMP_DISCLOSES_EMP_ENG_SCORE,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Supply Chain,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Social Supply Chain Management,SOCIAL_SUPPLY_CHAIN_MGMT,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Governance,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Audit Risk & Oversight,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Years Auditor Employed,YEARS_AUDITOR_EMPLOYED,,,,,,,,,,,,,,,,,,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Size of Audit Committee,SIZE_OF_AUDIT_COMMITTEE,,,,,,,,,,,,,,,,,,,5,5,5,5,5,4,4,6,6,4,3,4,5,5,4,4
+Number of Independent Directors on Audit Committee,NUM_IND_DIR_ON_AUD_CMTE,,,,,,,,,,,,,,,,,,,5,5,5,5,5,4,4,6,6,4,3,4,5,5,4,4
+Audit Committee Meetings,AUDIT_COMMITTEE_MEETINGS,,,,,,,,,,,,,,,,,,,7,10,8,9,6,5,5,6,7,5,7,7,7,7,8,7
+Audit Committee Meeting Attendance Percentage,AUDIT_COMMITTEE_MTG_ATTEND_PCT,,,,,,,,,,,,,,,,,,,75,75,75,75,75,75,75,75,75,75,75,75,92,92,94,91
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Board Composition,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Company Conducts Board Evaluations,COMPANY_CONDUCTS_BRD_EVALUATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1
+Board Size,BOARD_SIZE,,,,,,,,,,,,,,,,,,,17,17,16,10,10,10,11,12,12,10,10,10,11,12,11,12
+Number of Executives / Company Managers,NUM_EXECUTIVES_COMP_MANAGERS,,,,,,,,,,,,,,,,,,,8,11,9,9,9,9,8,7,8,8,8,7,7,8,7,7
+Number of Non Executive Directors on Board,NUM_OF_NONEXEC_DIR_ON_BRD,,,,,,,,,,,,,,,,,,,16,16,15,9,9,9,10,11,11,9,9,9,10,11,10,10
+Number of Board Meetings for the Year,BOARD_MEETINGS_PER_YR,,,,,,,,,,,,,,,,,,,8,12,12,11,13,11,11,12,17,10,11,13,10,10,7,8
+Board Meeting Attendance Pct,BOARD_MEETING_ATTENDANCE_PCT,,,,,,,,,,,,,,,,,,,75,75,75,75,75,75,75,75,75,75,75,75,92,92,94,91
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Compensation,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Company Has Executive Share Ownership Guidelines,COMP_HAS_EXEC_SH_OWNER_GUIDELNS,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1
+Director Share Ownership Guidelines,DIRECTOR_SH_OWNERSHIP_GUIDELINES,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,1,1,1,1
+Size of Compensation Committee,SIZE_OF_COMPENSATION_COMMITTEE,,,,,,,,,,,,,,,,,,,4,4,4,4,4,4,5,4,4,4,4,5,5,5,5,5
+Num of Independent Directors on Compensation Cmte,NUM_IND_DIR_ON_CMPNSTN_CMTE,,,,,,,,,,,,,,,,,,,4,4,4,4,4,4,5,4,4,4,4,5,5,5,5,5
+Number of Compensation Committee Meetings,NUM_COMPENSATION_CMTE_MTG,,,,,,,,,,,,,,,,,,,4,5,4,5,6,11,8,8,8,8,6,7,7,6,6,7
+Compensation Committee Meeting Attendance %,COMPENSATION_CMTE_MTG_ATTEND_PCT,,,,,,,,,,,,,,,,,,,75,75,75,75,75,75,75,75,75,75,75,75,92,92,94,91
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Diversity,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of Female Executives,NUMBER_OF_FEMALE_EXECUTIVES,,,,,,,,,,,,,,,,,,,2,2,2,2,2,2,2,2,3,3,3,2,2,3,2,2
+Number of Women on Board,NUMBER_OF_WOMEN_ON_BOARD,,,,,,,,,,,,,,,,,,,3,3,3,3,3,3,3,3,3,2,3,3,3,4,4,4
+Age of the Youngest Director,AGE_OF_YOUNGEST_DIRECTOR,,,,,,,,,,,,,,,,,,,43,44,45,54,55,56,49,50,51,55,56,57,57,43,44,45
+Age of the Oldest Director,AGE_OF_OLDEST_DIRECTOR,,,,,,,,,,,,,,,,,,,74,75,76,71,72,73,74,72,73,70,71,72,73,74,74,72
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Independence,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of Independent Directors,INDEPENDENT_DIRECTORS,,,,,,,,,,,,,,,,,,,10,10,9,9,9,9,10,11,11,9,9,9,10,11,10,10
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nominations & Governance Oversight,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Size of Nomination Committee,SIZE_OF_NOMINATION_COMMITTEE,,,,,,,,,,,,,,,,,,,4,4,4,4,4,4,5,4,5,4,4,5,5,6,5,6
+Num of Independent Directors on Nomination Cmte,NUM_IND_DIR_ON_NOM_CMTE,,,,,,,,,,,,,,,,,,,4,4,4,4,4,4,5,4,5,4,4,5,5,6,5,6
+Number of Nomination Committee Meetings,NUM_OF_NOMINATION_CMTE_MTG,,,,,,,,,,,,,,,,,,,4,4,7,5,7,5,6,7,5,7,8,4,3,4,4,4
+Nomination Committee Meeting Attendance Percentage,NOMINATION_CMTE_MTG_ATTEND_PCT,,,,,,,,,,,,,,,,,,,75,75,75,75,75,75,75,75,75,75,75,75,92,92,94,91
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sustainability Governance,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Verification Type,VERIFICATION_TYPE,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+Employee CSR Training,EMPLOYEE_CSR_TRAINING,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tenure,,#N/A Mandatory parameter [FIELDS] cannot be empty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Board Duration (Years),BOARD_DURATION,,,,,,,,,,,,,,,,,,,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1

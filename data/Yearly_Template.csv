@@ -1,0 +1,310 @@
+Unnamed: 0,"""=BDH($A$1, $B7, ""19900101"","""",""sort=a"",""dir=h"",""per=cy"")"
+,"""=BDH($A$1, $B8, ""19900101"","""",""sort=a"",""dates=h"",""dir=h"",""per=cy"")"
+,
+date,
+,
+date,
+"  + Cash, Cash Equivalents & STI",CASH_CASH_EQTY_STI_DETAILED
+    + Cash & Cash Equivalents,BS_CASH_NEAR_CASH_ITEM
+    + ST Investments,BS_MKT_SEC_OTHER_ST_INVEST
+  + Accounts & Notes Receiv,BS_ACCT_NOTE_RCV
+"    + Accounts Receivable, Net",BS_ACCTS_REC_EXCL_NOTES_REC
+"    + Notes Receivable, Net",NOTES_RECEIVABLE
+  + Unbilled Revenues,BS_UNBILLED_REVENUES
+  + Inventories,BS_INVENTORIES
+    + Raw Materials,INVTRY_RAW_MATERIALS
+    + Work In Process,INVTRY_IN_PROGRESS
+    + Finished Goods,INVTRY_FINISHED_GOODS
+    + Other Inventory,BS_OTHER_INV
+  + Other ST Assets,OTHER_CURRENT_ASSETS_DETAILED
+    + Prepaid Expenses,BS_PREPAY
+    + Derivative & Hedging Assets,BS_DERIV_HEDGING_ASST_ST
+    + Taxes Receivable,BS_TAXES_RECEIVABLE_SHORT_TERM
+    + Misc ST Assets,BS_OTHER_CUR_ASSET_LESS_PREPAY
+Total Current Assets,BS_CUR_ASSET_REPORT
+"  + Property, Plant & Equip, Net",BS_NET_FIX_ASSET
+"    + Property, Plant & Equip",BS_GROSS_FIX_ASSET
+    - Accumulated Depreciation,BS_ACCUM_DEPR
+  + LT Investments & Receivables,BS_LT_INVEST
+    + LT Investments,BS_LONG_TERM_INVESTMENTS
+    + LT Receivables,BS_LT_RECEIVABLES
+  + Other LT Assets,BS_OTHER_ASSETS_DEF_CHRG_OTHER
+    + Total Intangible Assets,BS_DISCLOSED_INTANGIBLES
+    + Goodwill,BS_GOODWILL
+    + Other Intangible Assets,OTHER_INTANGIBLE_ASSETS_DETAILED
+    + Prepaid Expense,BS_PREPAID_EXPENSE_LT
+    + Deferred Tax Assets,BS_DEFERRED_TAX_ASSETS_LT
+    + Derivative & Hedging Assets,BS_DERIV_HEDGING_ASST_LT
+    + Investments in Affiliates,BS_INVEST_IN_ASSOC_CO
+    + Misc LT Assets,OTHER_NONCURRENT_ASSETS_DETAILED
+Total Noncurrent Assets,BS_TOT_NON_CUR_ASSET
+Total Assets,BS_TOT_ASSET
+,
+Cash from Operating Activities,
+  + Net Income,CF_NET_INC
+Cash from Operating Activities,CF_CASH_FROM_OPER
+,
+Cash from Investing Activities,
+  + Change in Fixed & Intang,FIXED_INTANG_ASST_CHANGE
+    + Disp in Fixed & Intang,DISPOSAL_OF_FIXED_INTANG
+    + Acq of Fixed & Intang,ACQUIS_OF_FIXED_INTANG
+  + Net Change in LT Investment,NET_CHG_IN_LT_INVEST_DETAILED
+    + Dec in LT Investment,CF_DECR_INVEST
+    + Inc in LT Investment,CF_INCR_INVEST
+  + Net Cash From Acq & Div,CF_NT_CSH_RCVD_PD_FOR_ACQUIS_DIV
+    + Cash from Divestitures,CF_CASH_FOR_DIVESTITURES
+    + Cash for Acq of Subs,CF_CASH_FOR_ACQUIS_SUBSIDIARIES
+    + Cash for JVs,CF_CASH_FOR_JOINT_VENTURES_ASSOC
+  + Other Investing Activities,OTHER_INVESTING_ACT_DETAILED
+  + Net Cash From Disc Ops,CF_NET_CASH_DISCONTINUED_OPS_INV
+Cash from Investing Activities,CF_CASH_FROM_INV_ACT
+,
+Cash from Financing Activities,
+  + Dividends Paid,CF_DVD_PAID
+  + Cash From (Repayment) Debt,PROC_FR_REPAYMNTS_BOR_DETAILED
+  + Cash (Repurchase) of Equity,PROC_FR_REPURCH_EQTY_DETAILED
+    + Increase in Capital Stock,CF_INCR_CAP_STOCK
+    + Decrease in Capital Stock,CF_DECR_CAP_STOCK
+  + Other Financing Activities,OTHER_FIN_AND_DEC_CAP
+  + Net Cash From Disc Ops,CF_NET_CASH_DISCONTINUED_OPS_FIN
+Cash from Financing Activities,CFF_ACTIVITIES_DETAILED
+,
+  Effect of Foreign Exchange Rates,CF_EFFECT_FOREIGN_EXCHANGES
+,
+Net Changes in Cash,CF_NET_CHNG_CASH
+,
+Cash Paid for Taxes,CF_CASH_PAID_FOR_TAX
+,
+Reference Items,
+Net Cash Paid for Acquisitions,CF_NET_CASH_PAID_FOR_AQUIS
+Free Cash Flow,CF_FREE_CASH_FLOW
+Free Cash Flow to Firm,CF_FREE_CASH_FLOW_FIRM
+Free Cash Flow to Equity,FREE_CASH_FLOW_EQUITY
+Free Cash Flow per Basic Share,FREE_CASH_FLOW_PER_SH
+Price to Free Cash Flow,PX_TO_FREE_CASH_FLOW
+Cash Flow to Net Income,CASH_FLOW_TO_NET_INC
+,
+Revenue,SALES_REV_TURN
+    + Sales & Services Revenue,IS_SALES_AND_SERVICES_REVENUES
+  - Cost of Revenue,IS_COGS_TO_FE_AND_PP_AND_G
+    + Cost of Goods & Services,IS_COG_AND_SERVICES_SOLD
+Gross Profit,GROSS_PROFIT
+  + Other Operating Income,IS_OTHER_OPER_INC
+  - Operating Expenses,IS_OPERATING_EXPN
+"    + Selling, General & Admin",IS_SGA_EXPENSE
+    + Selling & Marketing,IS_SELLING_EXPENSES
+    + General & Administrative,IS_GENERAL_AND_ADMINISTRATIVE
+    + Research & Development,IS_OPERATING_EXPENSES_RD
+    + Other Operating Expense,IS_OTHER_OPERATING_EXPENSES
+Operating Income (Loss),IS_OPER_INC
+  - Non-Operating (Income) Loss,IS_NONOP_INCOME_LOSS
+"    + Interest Expense, Net",IS_NET_INTEREST_EXPENSE
+    + Interest Expense,IS_INT_EXPENSE
+    - Interest Income,IS_INT_INC
+    + Other Investment (Inc) Loss,IS_OTHER_INVESTMENT_INCOME_LOSS
+    + (Income) Loss from Affiliates,INCOME_LOSS_FROM_AFFILIATES
+    + Other Non-Op (Income) Loss,IS_OTHER_NON_OPERATING_INC_LOSS
+"Pretax Income (Loss), Adjusted",PRETAX_INC
+  - Abnormal Losses (Gains),IS_ABNORMAL_ITEM
+    + Abnormal Derivatives,IS_DERIVATIVES_HEDGING
+    + Disposal of Assets,IS_GAIN_LOSS_DISPOSAL_ASSETS
+    + Asset Write-Down,IS_IMPAIRMENT_ASSETS
+    + Impairment of Intangibles,IS_IMPAIR_OF_INTANG_ASSETS
+    + Gain/Loss on Sale/Acquisition of Business,IS_SALE_OF_BUSINESS
+    + Legal Settlement,IS_LEGAL_LITIGATION_SETTLEMENT
+    + Sale of Investments,IS_GAIN_LOSS_ON_INVESTMENTS
+    + Other Abnormal Items,IS_OTHER_ONE_TIME_ITEMS
+"Pretax Income (Loss), GAAP",PRETAX_INC
+  - Income Tax Expense (Benefit),IS_INC_TAX_EXP
+Income (Loss) from Cont Ops,IS_INC_BEF_XO_ITEM
+  - Net Extraordinary Losses (Gains),XO_GL_NET_OF_TAX
+    + Discontinued Operations,IS_DISCONTINUED_OPERATIONS
+    + XO & Accounting Changes,EXTRAORD_ITEMS_ACCOUNTING_CHANGS
+Income (Loss) Incl. MI,NI_INCLUDING_MINORITY_INT_RATIO
+  - Minority Interest,MIN_NONCONTROL_INTEREST_CREDITS
+"Net Income, GAAP",NET_INCOME
+  - Preferred Dividends,IS_TOT_CASH_PFD_DVD
+  - Other Adjustments,OTHER_ADJUSTMENTS
+"Net Income Avail to Common, GAAP",EARN_FOR_COMMON
+,
+"Net Income Avail to Common, Adj",EARN_FOR_COMMON
+  Net Abnormal Losses (Gains),IS_NET_ABNORMAL_ITEMS
+  Net Extraordinary Losses (Gains),XO_GL_NET_OF_TAX
+,
+Basic Weighted Avg Shares,IS_AVG_NUM_SH_FOR_EPS
+"Basic EPS, GAAP",IS_EPS
+"Basic EPS from Cont Ops, GAAP",IS_EARN_BEF_XO_ITEMS_PER_SH
+"Basic EPS from Cont Ops, Adjusted",IS_BASIC_EPS_CONT_OPS
+,
+Diluted Weighted Avg Shares,IS_SH_FOR_DILUTED_EPS
+"Diluted EPS, GAAP",IS_DILUTED_EPS
+"Diluted EPS from Cont Ops, GAAP",IS_DIL_EPS_BEF_XO
+"Diluted EPS from Cont Ops, Adjusted",IS_DIL_EPS_CONT_OPS
+,
+Reference Items,
+Accounting Standard,ACCOUNTING_STANDARD
+EBITDA,EBITDA
+EBITDA Margin (T12M),EBITDA_MARGIN
+EBIT,EBIT
+Gross Margin,GROSS_MARGIN
+Operating Margin,OPER_MARGIN
+Profit Margin,PROF_MARGIN
+Sales per Employee,ACTUAL_SALES_PER_EMPL
+,
+Returns,
+Return on Common Equity,RETURN_COM_EQY
+Return on Assets,RETURN_ON_ASSET
+Return on Capital,RETURN_ON_CAP
+Return on Invested Capital,RETURN_ON_INV_CAPITAL
+,
+Margins,
+Gross Margin,GROSS_MARGIN
+Operating Margin,OPER_MARGIN
+Incremental Operating Margin,INCREMENTAL_OPERATING_MARGIN
+Pretax Margin,PRETAX_INC_TO_NET_SALES
+Income before XO Margin,INC_BEF_XO_ITEMS_TO_NET_SALES
+Net Income Margin,PROF_MARGIN
+Net Income to Common Margin,NET_INCOME_TO_COMMON_MARGIN
+,
+Additional,
+Effective Tax Rate,EFF_TAX_RATE
+,
+ESG Financial Materiality Scores,
+BESG ESG Score,ESG_SCORE
+BESG Environmental Pillar Score,ENVIRONMENTAL_SCORE
+BESG Social Pillar Score,SOCIAL_SCORE
+BESG Governance Pillar Score,GOVERNANCE_SCORE
+,
+ESG Disclosure Scores,
+ESG Disclosure Score,ESG_DISCLOSURE_SCORE
+Environmental Disclosure Score,ENVIRON_DISCLOSURE_SCORE
+Social Disclosure Score,SOCIAL_DISCLOSURE_SCORE
+Governance Disclosure Score,GOVNCE_DISCLOSURE_SCORE
+,
+Environmental,
+Air Quality,
+Nitrogen Oxide Emissions,NOX_EMISSIONS
+VOC Emissions,VOC_EMISSIONS
+Particulate Emissions,PARTICULATE_EMISSIONS
+Sulphur Dioxide / Sulphur Oxide Emissions,SULPHUR_DIOXIDE_SULPHUR_OXIDE_EM
+,
+Climate Change,
+Emissions Reduction Initiatives,EMISSION_REDUCTION
+Transition Plan Claim,TRANSITION_PLAN_INDICATOR
+Climate Change Policy,CLIMATE_CHG_POLICY
+Climate Change Opportunities Discussed,CLIMATE_CHG_OPPORTUNITIES
+Risks of Climate Change Discussed,CLIMATE_RISKS
+GHG Scope 1,GHG_SCOPE_1
+GHG Scope 2 Location-Based,GHG_SCOPE_2_LOCATION_BASED
+,
+Energy,
+Energy Efficiency Policy,ENERGY_EFFIC_POLICY
+Total Energy Consumption,ENERGY_CONSUMPTION
+Electricity Used,ELECTRICITY_USED
+Fuel Used - Natural Gas,NAT_GAS_USED
+Fuel Used - Crude Oil/Diesel,OIL_DIESEL_USED
+,
+Materials & Waste,
+Waste Reduction Policy,WASTE_REDUCTION
+Hazardous Waste,HAZARDOUS_WASTE
+Total Waste,TOTAL_WASTE
+,
+Supply Chain,
+Environmental Supply Chain Management,ENVIRON_SUPPLY_MGT
+,
+Water,
+Water Policy,WATER_POLICY
+Total Water Withdrawal,TOTAL_WATER_WITHDRAWAL
+Total Water Discharged,TOTAL_WATER_DISCHARGED
+,
+Ecological & Biodiversity Impacts,
+Biodiversity Policy,BIODIVERSITY_POLICY
+Adopts TNFD Recommendations,ADOPT_TNFD_RECOMMENDATIONS
+Zero Deforestation Policy,ZERO_DEFORESTATION_POLICY
+Board Level Oversight of Biodiversity,BOARD_LEVEL_OVERSIGHT_BIODIV
+Executive Level Oversight of Biodiversity,EXEC_LEVEL_OVERSIGHT_BIODIV
+,
+Social,
+Community & Customers,
+Human Rights Policy,HUMAN_RIGHTS_POLICY
+Policy Against Child Labor,POLICY_AGAINST_CHILD_LABOR
+Quality Assurance and Recall Policy,QUALITY_ASSURANCE_AND_RECALL_POL
+Consumer Data Protection Policy,CONSUMER_DATA_PROTECTION_POLICY
+Community Spending,COMMUNITY_SPENDING
+Number of Customer Complaints,CUSTOMER_COMPLAINTS
+,
+Diversity,
+Equal Opportunity Policy,EQUAL_OPPORTUNITY_POLICY
+Gender Pay Gap Breakout,GENDER_PAY_GAP_BREAKOUT
+Pct Women in Senior Management,PCT_WOMEN_SENIOR_MGT
+Pct Women in Middle and or Other Management,PCT_WOMEN_IN_MID_AND_OTHER_MGMT
+Pct Women in Workforce,PCT_WOMEN_EMPLOYEES
+Pct Minorities in Workforce,PCT_MINORITY_EMPLOYEES
+Pct Disabled in Workforce,PCT_DISABLED_IN_WORKFORCE
+,
+Ethics & Compliance,
+Business Ethics Policy,ETHICS_POLICY
+Anti-Bribery Ethics Policy,ANTI_BRIBERY_ETHICS_POLICY
+,
+Health & Safety,
+Health and Safety Policy,HEALTH_SAFETY_POLICY
+Fatalities - Employees,FATALITIES_EMPLOYEES
+Lost Time Incident Rate - Employees,LOST_TIME_INCIDENT_RATE
+,
+Human Capital,
+Training Policy,TRAINING_POLICY
+Fair Remuneration Policy,FAIR_REMUNERATION_POLICY
+Number of Employees - CSR,NUMBER_EMPLOYEES_CSR
+Employee Turnover Pct,EMPLOYEE_TURNOVER_PCT
+Employee Training Cost,EMPLOYEE_TRAINING_COST
+Total Hours Spent by Firm - Employee Training,TOT_HRS_SPENT_BY_FIRM_EMP_TRAIN
+Company Discloses Employee Engagement Score,COMP_DISCLOSES_EMP_ENG_SCORE
+,
+Supply Chain,
+Social Supply Chain Management,SOCIAL_SUPPLY_CHAIN_MGMT
+,
+Governance,
+Audit Risk & Oversight,
+Years Auditor Employed,YEARS_AUDITOR_EMPLOYED
+Size of Audit Committee,SIZE_OF_AUDIT_COMMITTEE
+Number of Independent Directors on Audit Committee,NUM_IND_DIR_ON_AUD_CMTE
+Audit Committee Meetings,AUDIT_COMMITTEE_MEETINGS
+Audit Committee Meeting Attendance Percentage,AUDIT_COMMITTEE_MTG_ATTEND_PCT
+,
+Board Composition,
+Company Conducts Board Evaluations,COMPANY_CONDUCTS_BRD_EVALUATIONS
+Board Size,BOARD_SIZE
+Number of Executives / Company Managers,NUM_EXECUTIVES_COMP_MANAGERS
+Number of Non Executive Directors on Board,NUM_OF_NONEXEC_DIR_ON_BRD
+Number of Board Meetings for the Year,BOARD_MEETINGS_PER_YR
+Board Meeting Attendance Pct,BOARD_MEETING_ATTENDANCE_PCT
+,
+Compensation,
+Company Has Executive Share Ownership Guidelines,COMP_HAS_EXEC_SH_OWNER_GUIDELNS
+Director Share Ownership Guidelines,DIRECTOR_SH_OWNERSHIP_GUIDELINES
+Size of Compensation Committee,SIZE_OF_COMPENSATION_COMMITTEE
+Num of Independent Directors on Compensation Cmte,NUM_IND_DIR_ON_CMPNSTN_CMTE
+Number of Compensation Committee Meetings,NUM_COMPENSATION_CMTE_MTG
+Compensation Committee Meeting Attendance %,COMPENSATION_CMTE_MTG_ATTEND_PCT
+,
+Diversity,
+Number of Female Executives,NUMBER_OF_FEMALE_EXECUTIVES
+Number of Women on Board,NUMBER_OF_WOMEN_ON_BOARD
+Age of the Youngest Director,AGE_OF_YOUNGEST_DIRECTOR
+Age of the Oldest Director,AGE_OF_OLDEST_DIRECTOR
+,
+Independence,
+Number of Independent Directors,INDEPENDENT_DIRECTORS
+,
+Nominations & Governance Oversight,
+Size of Nomination Committee,SIZE_OF_NOMINATION_COMMITTEE
+Num of Independent Directors on Nomination Cmte,NUM_IND_DIR_ON_NOM_CMTE
+Number of Nomination Committee Meetings,NUM_OF_NOMINATION_CMTE_MTG
+Nomination Committee Meeting Attendance Percentage,NOMINATION_CMTE_MTG_ATTEND_PCT
+,
+Sustainability Governance,
+Verification Type,VERIFICATION_TYPE
+Employee CSR Training,EMPLOYEE_CSR_TRAINING
+,
+Tenure,
+Board Duration (Years),BOARD_DURATION

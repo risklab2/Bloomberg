@@ -1,8 +1,8 @@
-import re
 from collections import defaultdict
+import re
 import os
 import pandas as pd
-
+from tqdm import tqdm
 
 
 def getInfo(df):
@@ -79,8 +79,7 @@ def cleanExcel(fileName):
 def cleanFileName(fileName):
   # File Name Clean Up and Adding _V2
   filePath = fileName.replace("Raw_data", "Working_Data")
-  baseName = os.path.basename(filePath)
-  fileNameWithoutExt = os.path.splitext(baseName)[0]
+  fileNameWithoutExt = os.path.splitext(filePath)[0]
   newFileName = fileNameWithoutExt + "_V2.csv"
   return newFileName
 
@@ -123,13 +122,13 @@ for root, dirs, files in os.walk(raw_data_folder):
         else:
             print(f"No matching keyword found in file: {file}")
 
-for segment, quarter, yearly in zip(segments_files, quarter_files, yearly_files):
+for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_files), desc="Cleaning Files", total=len(quarter_files)):
     # Complete Segment later
     
     quarterDF = cleanExcel(quarter)
     yearlyDF = cleanExcel(yearly)
 
-    print(cleanFileName(quarter))
-    print(cleanFileName(yearly))
+    #print(cleanFileName(quarter))
+    #print(cleanFileName(yearly))
     #quarterDF.to_csv(cleanFileName(quarter), index=False)
     #yearlyDF.to_csv(cleanFileName(yearly), index=False)

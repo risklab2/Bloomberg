@@ -9,7 +9,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pandas==2.2.3',
-        'openpyxl==3.1.5'
+        'openpyxl==3.1.5',
+        'tqdm==4.67.0'
     ],  # The required dependencies
     classifiers=[
         "Programming Language :: Python :: 3",

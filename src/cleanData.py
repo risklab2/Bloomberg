@@ -124,11 +124,17 @@ for root, dirs, files in os.walk(raw_data_folder):
 
 for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_files), desc="Cleaning Files", total=len(quarter_files)):
     # Complete Segment later
+    # print("quarter len: ", len(quarter_files))
+    # print("zip len: ", len(list(zip(segments_files, quarter_files, yearly_files))))
+    # print("yearly len: ", len(yearly_files))
+
     
     quarterDF = cleanExcel(quarter)
     yearlyDF = cleanExcel(yearly)
 
-    #print(cleanFileName(quarter))
-    #print(cleanFileName(yearly))
-    #quarterDF.to_csv(cleanFileName(quarter), index=False)
-    #yearlyDF.to_csv(cleanFileName(yearly), index=False)
+    print(cleanFileName(quarter))
+    print(cleanFileName(yearly))
+    #print(quarterDF)
+    #print(yearlyDF)
+    quarterDF.to_csv(cleanFileName(quarter), index=False)
+    yearlyDF.to_csv(cleanFileName(yearly), index=False)

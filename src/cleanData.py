@@ -99,16 +99,24 @@ def cleanExcelSegments(fileName):
     # Saving the initial Names of the Variables
     parameterToName = defaultdict(list)
     parameterToName['_'].append('Revenue')
-    
+
     for i in df_from_row_6.index:
         parameterToName[df_from_row_6.iloc[i, 1]].append(df_from_row_6.iloc[i, 0])
 
     #df_from_row_6 = df_from_row_6.drop('Parameter', axis=1)
-    
+
     # Dropping NaN Parameters because they should not have any data
     df_from_row_6 = df_from_row_6.dropna(subset=['Parameter'])
-
-    df_from_row_6 = df_from_row_6.drop_duplicates(subset=['Parameter'])
+    
+    # print("RIGHT BEFORE DROPPING DUPLICATES")
+    # print(df_from_row_6['Parameter'].dtype)
+    # print(df_from_row_6['Parameter'])
+    #print(df_from_row_6)
+    #temp = df_from_row_6.drop_duplicates(subset=['Parameter'])
+    # print("RIGHT AFTER DROPPING DUPLICATES")
+    # print(df_from_row_6['Parameter'].dtype)
+    # print(df_from_row_6['Parameter'])
+    # print(df_from_row_6)
 
 
     #-------------------------
@@ -119,10 +127,23 @@ def cleanExcelSegments(fileName):
     transposed_df = transposed_df.reset_index(drop=True)
 
     # Reordering the dataframe
+    #transposed_df.insert(0, 'Date', transposed_df.pop('Date'))
+    #cols = ["Date"] + [col.replace(' ', '_') for col in transposed_df.columns if col != "Date"]
     cols = ["Date"] + [col for col in transposed_df.columns if col != "Date"]
-    transposed_df = transposed_df[cols]
 
-    return transposed_df
+    #transposed_df = pd.concat([transposed_df[['Date']], transposed_df.drop(columns=['Date'])], axis=1)
+    #print(transposed_df.columns)
+    #final_df = transposed_df.set_index("Date").reset_index()
+    
+    #-----------------------------------------------
+    #-----------------------------------------------
+    #-----------------------------------------------
+    # I think the issue was a formatting issue (all might be good)
+    #-----------------------------------------------
+    #-----------------------------------------------
+    #-----------------------------------------------
+
+    return transposed_df[cols]
 
 def cleanFileName(fileName):
   # File Name Clean Up and Adding _V2
@@ -175,8 +196,22 @@ for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_f
     # print("quarter len: ", len(quarter_files))
     # print("zip len: ", len(list(zip(segments_files, quarter_files, yearly_files))))
     # print("yearly len: ", len(yearly_files))
+    
+    
+    
+    #-----------------------------------------------
+    #-----------------------------------------------
+    #-----------------------------------------------
+    # I think the issue was a formatting issue (all might be good)
+    #-----------------------------------------------
+    #-----------------------------------------------
+    #-----------------------------------------------
+    
+    
+    
     i += 1
-    if i == 1: continue
+    #if (i != 24 and i != 18): continue
+    
     #quarterDF = cleanExcel(quarter)
     #yearlyDF = cleanExcel(yearly)
     print(segment)
@@ -186,7 +221,10 @@ for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_f
     #print(cleanFileName(yearly))
     print(cleanFileName(segment))
     print(segmentDF)
-    if i == 2: break
+    
+    print(i) # 23, 17, 
+    #if i == 10: break
+    
     #print(quarterDF)
     #print(yearlyDF)
     #quarterDF.to_csv(cleanFileName(quarter), index=False)

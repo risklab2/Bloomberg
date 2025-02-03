@@ -190,7 +190,7 @@ for root, dirs, files in os.walk(raw_data_folder):
 
         else:
             print(f"No matching keyword found in file: {file}")
-i = 0
+#i = 0
 for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_files), desc="Cleaning Files", total=len(quarter_files)):
     # Complete Segment later
     # print("quarter len: ", len(quarter_files))
@@ -209,23 +209,24 @@ for segment, quarter, yearly in tqdm(zip(segments_files, quarter_files, yearly_f
     
     
     
-    i += 1
+    #i += 1
     #if (i != 24 and i != 18): continue
     
-    #quarterDF = cleanExcel(quarter)
-    #yearlyDF = cleanExcel(yearly)
-    print(segment)
+    quarterDF = cleanExcel(quarter)
+    yearlyDF = cleanExcel(yearly)
+    #print(segment)
     segmentDF = cleanExcelSegments(segment)
     
     #print(cleanFileName(quarter))
     #print(cleanFileName(yearly))
-    print(cleanFileName(segment))
-    print(segmentDF)
+    #print(cleanFileName(segment))
+    #print(segmentDF)
     
-    print(i) # 23, 17, 
+    #print(i) # 23, 17, 
     #if i == 10: break
     
     #print(quarterDF)
     #print(yearlyDF)
-    #quarterDF.to_csv(cleanFileName(quarter), index=False)
-    #yearlyDF.to_csv(cleanFileName(yearly), index=False)
+    quarterDF.to_csv(cleanFileName(quarter), index=False)
+    yearlyDF.to_csv(cleanFileName(yearly), index=False)
+    segmentDF.to_csv(cleanFileName(segment), index=False)
